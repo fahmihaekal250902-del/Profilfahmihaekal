@@ -1,0 +1,124 @@
+/* Reset & Dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', 'Segoe UI', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  min-height: 100vh;
+  padding: 50px 20px;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Card Header */
+.header-card {
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  margin-bottom: 25px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 5px solid #f0f0f0;
+}
+
+.profile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.header-card h1 {
+  font-size: 2rem;
+  color: #1e3c72;
+  margin-bottom: 5px;
+}
+
+.title {
+  color: #666;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+.divider {
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  margin: 20px auto 0;
+  border-radius: 2px;
+}
+
+/* Content Card */
+.content-card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  margin-bottom: 25px;
+}
+
+.content-card h2 {
+  color: #1e3c72;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+  border-left: 4px solid #2a5298;
+  padding-left: 10px;
+}
+
+.content-card p {
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Skills */
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill-tag {
+  background: #eef2f7;
+  color: #1e3c72;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Contact & Button */
+.contact p {
+  margin-bottom: 8px;
+}
+
+button {
+  margin-top: 15px;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+}
